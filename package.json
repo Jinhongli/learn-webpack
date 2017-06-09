@@ -1,0 +1,41 @@
+{
+  "name": "learn-webpack",
+  "version": "1.0.0",
+  "description": "SurviveJS-Webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env production --color",
+    "start": "webpack-dev-server --env development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jinhongli/learn-webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "hongli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jinhongli/learn-webpack/issues"
+  },
+  "homepage": "https://github.com/Jinhongli/learn-webpack#readme",
+  "devDependencies": {
+    "cli-color": "^1.2.0",
+    "css-loader": "^0.28.0",
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-react": "^7.0.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "glob": "^7.1.2",
+    "html-webpack-plugin": "^2.28.0",
+    "html-webpack-template": "^6.0.1",
+    "react-dev-utils": "^3.0.0",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "webpack-dashboard": "^0.4.0",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-logging-plugin": "^0.1.2",
+    "webpack-merge": "^4.1.0"
+  }
+}
